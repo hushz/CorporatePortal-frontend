@@ -1,0 +1,34 @@
+.block_aboutUs {
+    position: relative;
+    height: 1000px;
+    overflow: hidden;
+    h1,p {
+        color: black;
+    }
+    &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://amado-id.ru/o-nas/images/tild3966-6231-4830-b062-646133666331__tild3664-3534-4835-b.png');
+        background-size: cover;
+        background-position: center center;
+        transition: transform 0.1s ease-out;
+      }
+      
+      &__content {
+        position: relative;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        p {
+            font-size: 26px;
+        }
+        li {
+            text-align: left;
+            list-style: none;
+        }
+      }
+  }
+  

@@ -1,0 +1,38 @@
+.block_info {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  background: #ed99f8;
+  padding: 50px 0px 0 50px !important;
+  padding: 10px;
+  &__title {
+    font-size: 48px;
+    color: #ffffff;
+  }
+  &__text {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  &__leftSide {
+    width: 50%;
+  }
+  &__rightSide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+}
+.block_info_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  li {
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    padding: 0px 20px 0px 20px;
+  }
+}
+
